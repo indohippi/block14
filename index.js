@@ -22,3 +22,12 @@ for (let k = 0; k < inputArrays.length; k++) {
 
   console.log(oddNumbers);
 }
+
+
+
+// vowels vs consonants
+let inputString = 'hello';
+let consonantsCount = 0;
+let vowelsCount = 0;
+const vowels = "aeiou";
+console.log(`${inputString} has ${consonantsCount} consonants and ${vowelsCount} vowels`);
